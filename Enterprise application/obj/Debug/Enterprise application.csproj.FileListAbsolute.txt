@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\Enterprise application.exe
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\Enterprise application.pdb
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\CircularProgressBar.dll
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\WinFormAnimation.dll
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\CircularProgressBar.xml
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\bin\Debug\WinFormAnimation.xml
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise_application.Form1.resources
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise_application.Properties.Resources.resources
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.csproj.GenerateResource.cache
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.csproj.CopyComplete
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.exe
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise application.pdb
+C:\Users\User\Desktop\vs\Enterprise application\Enterprise application\obj\Debug\Enterprise_application.Form2.resources
