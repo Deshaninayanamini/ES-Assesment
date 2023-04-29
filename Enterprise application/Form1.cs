@@ -38,11 +38,6 @@ namespace Enterprise_application
 
         }
 
-        private void circularProgressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -55,10 +50,10 @@ namespace Enterprise_application
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            RoundRectRgn.Value += 1;
-            RoundRectRgn.Text = RoundRectRgn.Value.ToString() + "%";
+           RoundRectRgn.Value += 1;
+           RoundRectRgn.Text = RoundRectRgn.Value.ToString() + "%";
 
-            if ( RoundRectRgn.Value == 100 )
+          if ( RoundRectRgn.Value == 100 )
             {
 
                 timer1.Enabled = false;
@@ -66,6 +61,11 @@ namespace Enterprise_application
                 se_form.Show();
                 this.Hide();
             }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }
