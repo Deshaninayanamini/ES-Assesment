@@ -15,5 +15,12 @@ namespace Enterprise_application
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Form2 se_form = new Form2();
+            se_form.Show();
+            this.Hide();
+        }
     }
 }

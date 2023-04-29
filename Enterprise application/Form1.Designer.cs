@@ -83,6 +83,7 @@
             this.RoundRectRgn.TabIndex = 5;
             this.RoundRectRgn.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
             this.RoundRectRgn.Value = 68;
+            this.RoundRectRgn.Click += new System.EventHandler(this.RoundRectRgn_Click);
             // 
             // Form1
             // 

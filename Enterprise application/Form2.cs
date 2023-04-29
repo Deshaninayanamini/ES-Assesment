@@ -25,5 +25,12 @@ namespace Enterprise_application
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            user se_form = new user();
+            se_form.Show();
+            this.Hide();
+        }
     }
 }

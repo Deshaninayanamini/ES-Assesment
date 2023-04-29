@@ -29,3 +29,4 @@ C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterpris
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise application.exe
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise application.pdb
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.AdminD.resources
+C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.user.resources
