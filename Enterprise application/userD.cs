@@ -38,5 +38,10 @@ namespace Enterprise_application
         {
             Application.Exit();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
