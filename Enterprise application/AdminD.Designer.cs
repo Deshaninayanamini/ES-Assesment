@@ -279,7 +279,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 42);
             this.button1.TabIndex = 8;
-            this.button1.Text = "CANSAL";
+            this.button1.Text = "CANSEL";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // label5
