@@ -87,7 +87,13 @@ namespace Enterprise_application
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+           if(e.RowIndex >= 0) { 
+            
+                DataGridViewRow row = this.dataGridView1.Rows[e.RowIndex];
+                textBox1.Text = row.Cells["Name"].Value.ToString();
+                textBox2.Text = row.Cells["Telephone"].Value.ToString();
+                textBox3.Text = row.Cells["Address"].Value.ToString();
+             
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
