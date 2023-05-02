@@ -53,5 +53,10 @@ namespace Enterprise_application
         {
             Application.Exit();
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
     }
 }

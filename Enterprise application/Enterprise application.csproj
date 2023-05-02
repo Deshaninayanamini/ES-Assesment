@@ -81,6 +81,12 @@
     <Compile Include="userD.Designer.cs">
       <DependentUpon>userD.cs</DependentUpon>
     </Compile>
+    <Compile Include="vender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vender.Designer.cs">
+      <DependentUpon>vender.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminD.resx">
       <DependentUpon>AdminD.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="userD.resx">
       <DependentUpon>userD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vender.resx">
+      <DependentUpon>vender.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

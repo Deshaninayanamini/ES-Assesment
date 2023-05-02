@@ -31,3 +31,4 @@ C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterpris
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.AdminD.resources
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.user.resources
 C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.userD.resources
+C:\Users\User\Desktop\ES\ES-Assesment\Enterprise application\obj\Debug\Enterprise_application.vender.resources

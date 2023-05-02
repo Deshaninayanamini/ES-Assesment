@@ -73,5 +73,32 @@ namespace Enterprise_application
         {
             Application.Exit();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            vender obj = new vender();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel5_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }
