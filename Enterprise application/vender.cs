@@ -52,6 +52,25 @@ namespace Enterprise_application
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into vender12 values (@Id,@Name,@Telephone,@Address,@Email)",con);
             cmd.Parameters.AddWithValue("@Name", textBox1.Text);
+            cmd.Parameters.AddWithValue("@Telephone", textBox2.Text);
+            cmd.Parameters.AddWithValue("@Address", textBox3.Text);
+            cmd.Parameters.AddWithValue("@Email", textBox4.Text);
+            cmd.Parameters.AddWithValue("@Id",textBox5.Text);
+            cmd.ExecuteNonQuery();
+            con.Close();
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            vender_Load();
+
+
+            MessageBox.Show("Insert Success!");
+       
+
+
+            
 
 
 
