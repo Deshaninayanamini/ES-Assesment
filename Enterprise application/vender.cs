@@ -48,7 +48,10 @@ namespace Enterprise_application
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("insert into vender12 values (@Id,@Name,@Telephone,@Address,@Email)",con);
+            cmd.Parameters.AddWithValue("@Name", textBox1.Text);
 
 
 
