@@ -93,7 +93,8 @@ namespace Enterprise_application
                 textBox1.Text = row.Cells["Name"].Value.ToString();
                 textBox2.Text = row.Cells["Telephone"].Value.ToString();
                 textBox3.Text = row.Cells["Address"].Value.ToString();
-             
+                textBox4.Text = row.Cells["Email"].Value.ToString();
+                textBox5.Text= row.Cells["Id"].Value.ToString();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
