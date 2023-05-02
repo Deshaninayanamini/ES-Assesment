@@ -82,7 +82,19 @@ namespace Enterprise_application
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+           SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\login.mdf;Integrated Security=True;Connect Timeout=30");
+            con.Open();
+            string name = textBox1.Text;
+            string tele = textBox2.Text;
+            string add = textBox3.Text;
+            string email= textBox4.Text;
+            int id= int.Parse(textBox5.Text);
+
+            string Query="UPDATE vender12 SET Name='"+name+ "', Telephone='"+tele+ "',Address='"+add+"',Email='"+email+ "' WHERE Id='"+id+"' ";
+            SqlCommand cmd = new SqlCommand(Query, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+ 
         }
 
         private void button4_Click(object sender, EventArgs e)
