@@ -94,6 +94,15 @@ namespace Enterprise_application
             SqlCommand cmd = new SqlCommand(Query, con);
             cmd.ExecuteNonQuery();
             con.Close();
+            
+             textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            textBox5.Text = "";
+
+            MessageBox.Show("update Succesful!");
+            vender_Load();
  
         }
 
